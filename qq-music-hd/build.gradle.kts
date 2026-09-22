@@ -40,7 +40,7 @@ configure<ApplicationExtension> {
             signingConfig = signingConfigs.getByName("release")
         }
         getByName("release") {
-            signingConfig = signingConfigs.getByName("release")
+            //signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(
